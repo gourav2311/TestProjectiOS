@@ -28,7 +28,7 @@ class ViewController: UIViewController,NVActivityIndicatorViewable {
     func apiexecute() {
           self.startAnimating()
         if(Utilities.startNetworkReachabilityObserver()){
-           
+            print("gourav")
             
                 let api = Api()
                 api.apiCall(section: "article"){
