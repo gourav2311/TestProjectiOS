@@ -30,6 +30,8 @@ class ViewController: UIViewController,NVActivityIndicatorViewable {
         if(Utilities.startNetworkReachabilityObserver()){
             print("gourav")
             
+            
+            
                 let api = Api()
                 api.apiCall(section: "article"){
                     responseObject, error in
