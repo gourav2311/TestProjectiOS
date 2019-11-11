@@ -1,0 +1,7 @@
+use_frameworks!
+target 'TestApp' do
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'NVActivityIndicatorView'
+    pod 'SDWebImage', '~> 4.0'
+end
